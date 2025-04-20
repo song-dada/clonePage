@@ -1,0 +1,37 @@
+*{
+    margin: 0;padding: 0;
+}
+.guest-outbox{
+    width: 100vw;
+    height: 100vh;
+    background-color: #eee;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    .comment-area{
+        height: 50vh;
+        width: 37.5vw;
+        overflow-y: auto;
+        .msg-card{
+            background-color: #fff;
+            // border-bottom: 1px solid #ddd;
+            padding: 5px;
+            margin-bottom: 5px;
+           h2{
+            display: inline-block;
+            margin-right: 15px;
+            font-style: 1.2rem;
+           }
+           p{
+            display: inline-block;
+            font-style: 1.1rem;
+           }
+           p:last-of-type{
+            float: inline-end;
+           }
+            
+        }
+    }
+}

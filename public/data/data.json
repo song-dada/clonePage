@@ -1,0 +1,52 @@
+{
+    "Liquor": [
+        {
+            "bgImg": "bgimg/liquor1.jpg",
+            "discription": "제품명",
+            "logoSrc": "logoimg/logo1.png"
+        },
+        {
+            "bgImg": "bgimg/liquor2.jpg",
+            "discription": "제품명",
+            "logoSrc": "logoimg/logo2.png"
+        },
+        {
+            "bgImg": "bgimg/liquor3.jpg",
+            "discription": "제품명",
+            "logoSrc": "logoimg/logo3.png"
+        },
+        {
+            "bgImg": "bgimg/liquor4.jpg",
+            "discription": "제품명",
+            "logoSrc": "logoimg/logo4.png"
+        },
+        {
+            "bgImg": "bgimg/liquor5.jpg",
+            "discription": "제품명",
+            "logoSrc": "logoimg/logo5.png"
+        }
+    ],
+    "News": [
+        {
+            "marker": "Notice",
+            "content": "한국전통주수출협의회 홈페이지 리뉴얼",
+            "date": "2024.12.16"
+        },
+        {
+            "marker": "News",
+            "content": "\"외국인들에게 프리미언 소주 맛보여줬어요\"",
+            "date": "2024.04,08"
+        },
+        {
+            "marker": "News",
+            "content": "[박순욱의 술기행](113) 세계 최대 규모 주류전시회",
+            "date": "2024.03.29"
+        }
+        ,{
+            "marker": "News",
+            "content": "[기획] 전통주 활성화를 위한 마케팅 보드",
+            "date": "2009.12.09"
+        }
+
+    ]
+}

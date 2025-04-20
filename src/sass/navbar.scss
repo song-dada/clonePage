@@ -1,0 +1,32 @@
+.flex-base{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar-area{
+    position: fixed;
+    z-index: 1000;
+
+    width: 100vw;
+    height: fit-content;
+    background-color: rgba($color: #111, $alpha: 0.5);
+    padding: 10px;
+    border-bottom: 1px #ccc solid;
+    
+    @extend .flex-base;
+    gap: 30px;
+    
+    .logo{
+        margin-right: 10%;
+    }
+    .link-items{
+        @extend .flex-base;
+        gap: 40px;
+        a{
+            text-decoration: none;
+            color: #fff;
+            font-weight: 600;
+        }
+    }
+}
