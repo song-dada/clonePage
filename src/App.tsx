@@ -9,7 +9,7 @@ function App() {
       <Router basename='/clonePage'>
         <Navbar/>
         <Routes>
-          <Route path='/pagehome' element={<Index/>}/>
+          <Route path='/' element={<Index/>}/>
           <Route path='/guestbook' element={<GuestBook/>}/>
         </Routes>
 
