@@ -6,7 +6,7 @@ import GuestBook from './pages/GuestBook';
 function App() {
   return (
     <div className="App">
-      <Router>
+      <Router basename='/clonePage'>
         <Navbar/>
         <Routes>
           <Route path='/' element={<Index/>}/>

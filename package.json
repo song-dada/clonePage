@@ -1,7 +1,7 @@
 {
   "name": "clone-app",
   "version": "0.1.0",
-  "homepage": "https://song-dada.github.io/clonePage/",
+  "homepage": "https://song-dada.github.io/clonePage",
   "private": true,
   "dependencies": {
     "@testing-library/dom": "^10.4.0",
@@ -17,7 +17,6 @@
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
     "framer-motion": "^12.7.3",
-    "gh-pages": "^6.3.0",
     "mysql2": "^3.14.0",
     "react": "^19.1.0",
     "react-dom": "^19.1.0",
@@ -53,5 +52,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "gh-pages": "^6.3.0"
   }
 }
