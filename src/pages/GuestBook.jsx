@@ -8,7 +8,7 @@ const GuestBook = () => {
 
     const showMessage = async () => {
         try {
-            const response = await axios.get("https://guest-650001366068.us-central1.run.app/guestbook");
+            const response = await axios.get("https://guestbook-650001366068.us-central1.run.app/guestbook");
             setApiMessage(response.data);
         } catch (error) {
             console.error("showMessage Error : ", error)
@@ -18,7 +18,7 @@ const GuestBook = () => {
     const submitPost = async (e) => {
         e.preventDefault();
         try {
-            await axios.post("https://guest-650001366068.us-central1.run.app/guestbook", postData);
+            await axios.post("https://guestbook-650001366068.us-central1.run.app/guestbook", postData);
             setPostData({name: "", message: ""});
             showMessage();
         } catch (error) {
